@@ -108,12 +108,12 @@
 		20C79444F0CFFCAE9B7F29C0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FF31CA816F7F323348441BF4 /* Pods-YaoShiBao.debug.xcconfig */,
-				29BE40523FBFA88338AD6EA4 /* Pods-YaoShiBao.internal.xcconfig */,
-				423F63DED60426C0692F5940 /* Pods-YaoShiBao.publish.xcconfig */,
 				54142619D48E210DFC2682F5 /* Pods-YaoShiBao-YaoShiBaoUITests.debug.xcconfig */,
 				9091286437C84EDACD71A1A1 /* Pods-YaoShiBao-YaoShiBaoUITests.internal.xcconfig */,
 				73B5AB052D1C9AD8F35BAAE2 /* Pods-YaoShiBao-YaoShiBaoUITests.publish.xcconfig */,
+				FF31CA816F7F323348441BF4 /* Pods-YaoShiBao.debug.xcconfig */,
+				29BE40523FBFA88338AD6EA4 /* Pods-YaoShiBao.internal.xcconfig */,
+				423F63DED60426C0692F5940 /* Pods-YaoShiBao.publish.xcconfig */,
 				99C47835A2A521A5737BBCB6 /* Pods-YaoShiBaoTests.debug.xcconfig */,
 				62D0B707EB44FD6A9E91C41B /* Pods-YaoShiBaoTests.internal.xcconfig */,
 				96B8C1295878E1AA2B23F23C /* Pods-YaoShiBaoTests.publish.xcconfig */,
@@ -149,12 +149,12 @@
 			children = (
 				31B5DF9526B4D983009EAA3D /* Configurations */,
 				313C596126B44B3E00226A81 /* AppDelegate.swift */,
+				313C596A26B44B3F00226A81 /* Assets.xcassets */,
+				313C596F26B44B3F00226A81 /* Info.plist */,
+				313C596C26B44B3F00226A81 /* LaunchScreen.storyboard */,
+				313C596726B44B3E00226A81 /* Main.storyboard */,
 				313C596326B44B3E00226A81 /* SceneDelegate.swift */,
 				313C596526B44B3E00226A81 /* ViewController.swift */,
-				313C596726B44B3E00226A81 /* Main.storyboard */,
-				313C596A26B44B3F00226A81 /* Assets.xcassets */,
-				313C596C26B44B3F00226A81 /* LaunchScreen.storyboard */,
-				313C596F26B44B3F00226A81 /* Info.plist */,
 			);
 			path = YaoShiBao;
 			sourceTree = "<group>";
@@ -162,8 +162,8 @@
 		313C597726B44B3F00226A81 /* YaoShiBaoTests */ = {
 			isa = PBXGroup;
 			children = (
-				313C597826B44B3F00226A81 /* YaoShiBaoTests.swift */,
 				313C597A26B44B3F00226A81 /* Info.plist */,
+				313C597826B44B3F00226A81 /* YaoShiBaoTests.swift */,
 			);
 			path = YaoShiBaoTests;
 			sourceTree = "<group>";
@@ -171,8 +171,8 @@
 		313C598226B44B3F00226A81 /* YaoShiBaoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				313C598326B44B3F00226A81 /* YaoShiBaoUITests.swift */,
 				313C598526B44B3F00226A81 /* Info.plist */,
+				313C598326B44B3F00226A81 /* YaoShiBaoUITests.swift */,
 			);
 			path = YaoShiBaoUITests;
 			sourceTree = "<group>";
@@ -191,9 +191,9 @@
 			isa = PBXGroup;
 			children = (
 				31B5DFB726B4E41D009EAA3D /* BaseProject.xcconfig */,
-				31B5DFB826B4E5B5009EAA3D /* PublishProject.xcconfig */,
 				31B5DFB926B4E634009EAA3D /* DebugProject.xcconfig */,
 				31B5DFBA26B4E654009EAA3D /* InternalProject.xcconfig */,
+				31B5DFB826B4E5B5009EAA3D /* PublishProject.xcconfig */,
 			);
 			path = Project;
 			sourceTree = "<group>";
@@ -212,9 +212,9 @@
 			isa = PBXGroup;
 			children = (
 				31B5DFBE26B4E6C1009EAA3D /* BaseTargets.xcconfig */,
-				31B5DFBC26B4E659009EAA3D /* PublishTargets.xcconfig */,
 				31B5DFBB26B4E659009EAA3D /* DebugTargets.xcconfig */,
 				31B5DFBD26B4E65A009EAA3D /* InternalTargets.xcconfig */,
+				31B5DFBC26B4E659009EAA3D /* PublishTargets.xcconfig */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -336,8 +336,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				313C596E26B44B3F00226A81 /* LaunchScreen.storyboard in Resources */,
 				313C596B26B44B3F00226A81 /* Assets.xcassets in Resources */,
+				313C596E26B44B3F00226A81 /* LaunchScreen.storyboard in Resources */,
 				313C596926B44B3E00226A81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,9 +450,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				313C596626B44B3E00226A81 /* ViewController.swift in Sources */,
 				313C596226B44B3E00226A81 /* AppDelegate.swift in Sources */,
 				313C596426B44B3E00226A81 /* SceneDelegate.swift in Sources */,
+				313C596626B44B3E00226A81 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
