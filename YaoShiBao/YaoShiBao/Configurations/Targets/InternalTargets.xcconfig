@@ -1,0 +1,16 @@
+//
+//  InternalProject.xcconfig
+//  YaoShiBao
+//
+//  Created by 程立卿 on 2021/7/31.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../Pods/Target Support Files/Pods-YaoShiBao/Pods-YaoShiBao.publish.xcconfig"
+#include "BaseTargets.xcconfig"
+
+PRODUCT_BUNDLE_NAME = $(inherited) β
+PRODUCT_BUNDLE_IDENTIFIER = com.test.yaoshibao.internal
+//FIREBASE_CONFIG_FILENAME = GoogleService-Info-AppStore

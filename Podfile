@@ -10,10 +10,9 @@ use_frameworks!
 inhibit_all_warnings!
 
 target 'YaoShiBao' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
   # Pods for YaoShiBao
+  pod 'SwiftLint', '~> 0.43.1', configurations: ['Debug']
+#  pod 'R.swift', '~> 5.4.0', configurations: ['Debug']
 
   target 'YaoShiBaoTests' do
     inherit! :search_paths

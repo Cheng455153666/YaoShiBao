@@ -3,6 +3,7 @@
 
 # Mac
 .DS_Store
+fastlane/
 
 ### AppCode ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider

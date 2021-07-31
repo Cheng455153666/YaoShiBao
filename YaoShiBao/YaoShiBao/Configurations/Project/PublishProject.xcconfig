@@ -1,0 +1,13 @@
+//
+//  PublishProject.xcconfig
+//  YaoShiBao
+//
+//  Created by 程立卿 on 2021/7/31.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "BaseProject.xcconfig"
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) PRODUCTION
